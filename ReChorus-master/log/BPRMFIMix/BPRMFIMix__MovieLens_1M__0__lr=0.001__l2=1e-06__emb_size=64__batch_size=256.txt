@@ -1,0 +1,36 @@
+INFO:root:Namespace(model_name='BPRMFIMix', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-30 19:50:20 ---------------------------------------------
+INFO:root:
+===================================
+ Arguments          | Values       
+===================================
+ batch_size         | 256         
+ data_appendix      |             
+ dataset            | MovieLens_1M
+ dropout            | 0           
+ early_stop         | 10          
+ emb_size           | 64          
+ epoch              | 200         
+ eval_batch_size    | 256         
+ gpu                | 0           
+ l2                 | 1e-06       
+ lr                 | 0.001       
+ main_metric        |             
+ num_neg            | 2           
+ num_workers        | 5           
+ optimizer          | Adam        
+ random_seed        | 0           
+ save_final_results | 1           
+ test_all           | 0           
+ topk               | 5,10,20,50  
+===================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/MovieLens_1M\BaseReader.pkl
+INFO:root:#params: 623872
+INFO:root:BPRMFIMix(
+  (u_embeddings): Embedding(6041, 64)
+  (i_embeddings): Embedding(3707, 64)
+)
+INFO:root:Test Before Training: (NDCG@5:0.0319,RECALL@5:0.0546,NDCG@10:0.0467,RECALL@10:0.1007,NDCG@20:0.0722,RECALL@20:0.2031,NDCG@50:0.1284,RECALL@50:0.4904)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5812 [537.5 s]	dev=(NDCG@5:0.2228,RECALL@5:0.3373) [15.7 s] *

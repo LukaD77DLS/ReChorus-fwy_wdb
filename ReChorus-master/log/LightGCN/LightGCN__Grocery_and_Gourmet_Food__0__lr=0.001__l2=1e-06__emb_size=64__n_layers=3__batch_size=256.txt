@@ -1,0 +1,485 @@
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:19:48 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:20:46 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:22:10 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:23:41 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:36:10 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:38:09 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (HR@5:0.0486,NDCG@5:0.0287,HR@10:0.1001,NDCG@10:0.0451,HR@20:0.1964,NDCG@20:0.0692,HR@50:0.5006,NDCG@50:0.1286)
+INFO:root:Optimizer: Adam
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:39:47 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (HR@5:0.0486,NDCG@5:0.0287,HR@10:0.1001,NDCG@10:0.0451,HR@20:0.1964,NDCG@20:0.0692,HR@50:0.5006,NDCG@50:0.1286)
+INFO:root:Optimizer: Adam
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:41:05 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 11:42:36 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (NDCG@5:0.0287,RECALL@5:1.0000,NDCG@10:0.0451,RECALL@10:1.0000,NDCG@20:0.0692,RECALL@20:1.0000,NDCG@50:0.1286,RECALL@50:1.0000)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5198 [97.3 s]	dev=(NDCG@5:0.1859,RECALL@5:1.0000) [19.3 s] *
+INFO:root:Epoch 2     loss=0.4177 [96.4 s]	dev=(NDCG@5:0.2163,RECALL@5:1.0000) [19.6 s] *
+INFO:root:Epoch 3     loss=0.3733 [104.6 s]	dev=(NDCG@5:0.2400,RECALL@5:1.0000) [19.4 s] *
+INFO:root:Epoch 4     loss=0.3364 [97.4 s]	dev=(NDCG@5:0.2587,RECALL@5:1.0000) [19.5 s] *
+INFO:root:Epoch 5     loss=0.3070 [96.1 s]	dev=(NDCG@5:0.2716,RECALL@5:1.0000) [19.6 s] *
+INFO:root:Epoch 6     loss=0.2848 [95.9 s]	dev=(NDCG@5:0.2801,RECALL@5:1.0000) [19.3 s] *
+INFO:root:Epoch 7     loss=0.2682 [97.5 s]	dev=(NDCG@5:0.2856,RECALL@5:1.0000) [19.5 s] *
+INFO:root:Epoch 8     loss=0.2544 [101.9 s]	dev=(NDCG@5:0.2900,RECALL@5:1.0000) [19.4 s] *
+INFO:root:Epoch 9     loss=0.2424 [96.4 s]	dev=(NDCG@5:0.2934,RECALL@5:1.0000) [20.0 s] *
+INFO:root:Epoch 10    loss=0.2335 [98.1 s]	dev=(NDCG@5:0.2962,RECALL@5:1.0000) [22.3 s] *
+INFO:root:Epoch 11    loss=0.2245 [124.6 s]	dev=(NDCG@5:0.2990,RECALL@5:1.0000) [23.9 s] *
+INFO:root:Epoch 12    loss=0.2161 [136.8 s]	dev=(NDCG@5:0.3009,RECALL@5:1.0000) [23.7 s] *
+INFO:root:Epoch 13    loss=0.2092 [133.8 s]	dev=(NDCG@5:0.3032,RECALL@5:1.0000) [24.0 s] *
+INFO:root:Epoch 14    loss=0.2024 [544.6 s]	dev=(NDCG@5:0.3049,RECALL@5:1.0000) [20.2 s] *
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-25 12:22:05 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (NDCG@5:0.0287,RECALL@5:0.0486,NDCG@10:0.0451,RECALL@10:0.1001,NDCG@20:0.0692,RECALL@20:0.1964,NDCG@50:0.1286,RECALL@50:0.5006)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5198 [98.2 s]	dev=(NDCG@5:0.1859,RECALL@5:0.2820) [20.0 s] *
+INFO:root:Epoch 2     loss=0.4177 [132.7 s]	dev=(NDCG@5:0.2163,RECALL@5:0.3168) [22.4 s] *
+INFO:root:Epoch 3     loss=0.3733 [136.3 s]	dev=(NDCG@5:0.2400,RECALL@5:0.3449) [23.2 s] *
+INFO:root:Epoch 4     loss=0.3364 [143.2 s]	dev=(NDCG@5:0.2587,RECALL@5:0.3692) [20.9 s] *
+INFO:root:Epoch 5     loss=0.3070 [101.9 s]	dev=(NDCG@5:0.2716,RECALL@5:0.3859) [21.3 s] *
+INFO:root:Epoch 6     loss=0.2848 [98.8 s]	dev=(NDCG@5:0.2801,RECALL@5:0.3962) [19.6 s] *
+INFO:root:Epoch 7     loss=0.2682 [97.3 s]	dev=(NDCG@5:0.2856,RECALL@5:0.4042) [19.6 s] *
+INFO:root:Epoch 8     loss=0.2544 [104.3 s]	dev=(NDCG@5:0.2900,RECALL@5:0.4105) [19.8 s] *
+INFO:root:Epoch 9     loss=0.2424 [97.3 s]	dev=(NDCG@5:0.2934,RECALL@5:0.4147) [19.5 s] *
+INFO:root:Epoch 10    loss=0.2335 [97.4 s]	dev=(NDCG@5:0.2962,RECALL@5:0.4183) [19.7 s] *
+INFO:root:Epoch 11    loss=0.2245 [97.2 s]	dev=(NDCG@5:0.2990,RECALL@5:0.4222) [19.6 s] *
+INFO:root:Epoch 12    loss=0.2161 [96.8 s]	dev=(NDCG@5:0.3009,RECALL@5:0.4248) [19.8 s] *
+INFO:root:Epoch 13    loss=0.2092 [98.0 s]	dev=(NDCG@5:0.3032,RECALL@5:0.4274) [19.6 s] *
+INFO:root:Epoch 14    loss=0.2024 [97.7 s]	dev=(NDCG@5:0.3049,RECALL@5:0.4278) [19.5 s] *
+INFO:root:Epoch 15    loss=0.1925 [97.1 s]	dev=(NDCG@5:0.3061,RECALL@5:0.4289) [19.6 s] *
+INFO:root:Epoch 16    loss=0.1885 [97.4 s]	dev=(NDCG@5:0.3081,RECALL@5:0.4323) [19.6 s] *
+INFO:root:Epoch 17    loss=0.1811 [99.6 s]	dev=(NDCG@5:0.3080,RECALL@5:0.4327) [20.0 s]
+INFO:root:Epoch 18    loss=0.1783 [102.6 s]	dev=(NDCG@5:0.3092,RECALL@5:0.4341) [22.5 s] *
+INFO:root:Epoch 19    loss=0.1723 [144.5 s]	dev=(NDCG@5:0.3114,RECALL@5:0.4358) [24.3 s] *
+INFO:root:Epoch 20    loss=0.1654 [138.6 s]	dev=(NDCG@5:0.3123,RECALL@5:0.4376) [24.1 s] *
+INFO:root:Epoch 21    loss=0.1599 [136.6 s]	dev=(NDCG@5:0.3132,RECALL@5:0.4391) [23.8 s] *
+INFO:root:Epoch 22    loss=0.1556 [135.5 s]	dev=(NDCG@5:0.3145,RECALL@5:0.4401) [24.3 s] *
+INFO:root:Epoch 23    loss=0.1504 [134.7 s]	dev=(NDCG@5:0.3161,RECALL@5:0.4427) [24.2 s] *
+INFO:root:Epoch 24    loss=0.1462 [136.1 s]	dev=(NDCG@5:0.3162,RECALL@5:0.4422) [23.9 s] *
+INFO:root:Epoch 25    loss=0.1420 [135.9 s]	dev=(NDCG@5:0.3172,RECALL@5:0.4420) [24.0 s] *
+INFO:root:Epoch 26    loss=0.1397 [133.9 s]	dev=(NDCG@5:0.3182,RECALL@5:0.4439) [24.2 s] *
+INFO:root:Epoch 27    loss=0.1358 [134.8 s]	dev=(NDCG@5:0.3191,RECALL@5:0.4455) [23.8 s] *
+INFO:root:Epoch 28    loss=0.1322 [135.7 s]	dev=(NDCG@5:0.3198,RECALL@5:0.4465) [23.9 s] *
+INFO:root:Epoch 29    loss=0.1284 [133.9 s]	dev=(NDCG@5:0.3198,RECALL@5:0.4467) [23.6 s]
+INFO:root:Epoch 30    loss=0.1253 [135.7 s]	dev=(NDCG@5:0.3214,RECALL@5:0.4492) [23.8 s] *
+INFO:root:Epoch 31    loss=0.1217 [134.3 s]	dev=(NDCG@5:0.3218,RECALL@5:0.4500) [24.2 s] *
+INFO:root:Epoch 32    loss=0.1190 [133.0 s]	dev=(NDCG@5:0.3239,RECALL@5:0.4523) [23.7 s] *
+INFO:root:Epoch 33    loss=0.1157 [9594.2 s]	dev=(NDCG@5:0.3243,RECALL@5:0.4523) [20.0 s] *
+INFO:root:Epoch 34    loss=0.1135 [97.1 s]	dev=(NDCG@5:0.3242,RECALL@5:0.4517) [22.2 s]
+INFO:root:Epoch 35    loss=0.1111 [699.3 s]	dev=(NDCG@5:0.3258,RECALL@5:0.4541) [31.6 s] *
+INFO:root:Epoch 36    loss=0.1093 [144.4 s]	dev=(NDCG@5:0.3259,RECALL@5:0.4547) [32.4 s] *
+INFO:root:Epoch 37    loss=0.1056 [135.9 s]	dev=(NDCG@5:0.3254,RECALL@5:0.4537) [32.4 s]
+INFO:root:Epoch 38    loss=0.1050 [235.6 s]	dev=(NDCG@5:0.3271,RECALL@5:0.4550) [31.7 s] *
+INFO:root:Epoch 39    loss=0.1032 [180.9 s]	dev=(NDCG@5:0.3269,RECALL@5:0.4557) [42.3 s]
+INFO:root:Epoch 40    loss=0.1009 [334.9 s]	dev=(NDCG@5:0.3272,RECALL@5:0.4572) [51.5 s] *
+INFO:root:Epoch 41    loss=0.0991 [350.7 s]	dev=(NDCG@5:0.3264,RECALL@5:0.4556) [51.3 s]
+INFO:root:Epoch 42    loss=0.0991 [354.8 s]	dev=(NDCG@5:0.3275,RECALL@5:0.4578) [51.0 s] *
+INFO:root:Epoch 43    loss=0.0968 [138.4 s]	dev=(NDCG@5:0.3281,RECALL@5:0.4579) [32.6 s] *
+INFO:root:Epoch 44    loss=0.0952 [233.0 s]	dev=(NDCG@5:0.3282,RECALL@5:0.4575) [46.5 s] *
+INFO:root:Epoch 45    loss=0.0937 [210.4 s]	dev=(NDCG@5:0.3289,RECALL@5:0.4592) [36.0 s] *
+INFO:root:Epoch 46    loss=0.0940 [149.6 s]	dev=(NDCG@5:0.3297,RECALL@5:0.4598) [34.4 s] *
+INFO:root:Epoch 47    loss=0.0923 [142.1 s]	dev=(NDCG@5:0.3295,RECALL@5:0.4595) [38.3 s]
+INFO:root:Epoch 48    loss=0.0900 [146.0 s]	dev=(NDCG@5:0.3293,RECALL@5:0.4595) [39.1 s]
+INFO:root:Epoch 49    loss=0.0906 [147.9 s]	dev=(NDCG@5:0.3307,RECALL@5:0.4617) [35.6 s] *
+INFO:root:Epoch 50    loss=0.0886 [145.3 s]	dev=(NDCG@5:0.3307,RECALL@5:0.4611) [35.8 s] *
+INFO:root:Epoch 51    loss=0.0893 [238.8 s]	dev=(NDCG@5:0.3313,RECALL@5:0.4619) [36.6 s] *
+INFO:root:Epoch 52    loss=0.0874 [148.1 s]	dev=(NDCG@5:0.3310,RECALL@5:0.4624) [35.3 s]
+INFO:root:Epoch 53    loss=0.0870 [188.2 s]	dev=(NDCG@5:0.3318,RECALL@5:0.4632) [52.6 s] *
+INFO:root:Epoch 54    loss=0.0854 [210.8 s]	dev=(NDCG@5:0.3314,RECALL@5:0.4633) [37.8 s]
+INFO:root:Epoch 55    loss=0.0857 [146.3 s]	dev=(NDCG@5:0.3315,RECALL@5:0.4630) [35.5 s]
+INFO:root:Epoch 56    loss=0.0844 [147.0 s]	dev=(NDCG@5:0.3314,RECALL@5:0.4622) [35.2 s]
+INFO:root:Epoch 57    loss=0.0846 [147.6 s]	dev=(NDCG@5:0.3313,RECALL@5:0.4618) [36.5 s]
+INFO:root:Epoch 58    loss=0.0826 [143.4 s]	dev=(NDCG@5:0.3329,RECALL@5:0.4639) [36.0 s] *
+INFO:root:Epoch 59    loss=0.0829 [146.8 s]	dev=(NDCG@5:0.3328,RECALL@5:0.4644) [35.3 s]
+INFO:root:Epoch 60    loss=0.0823 [275.2 s]	dev=(NDCG@5:0.3322,RECALL@5:0.4636) [50.9 s]
+INFO:root:Epoch 61    loss=0.0831 [3059.4 s]	dev=(NDCG@5:0.3325,RECALL@5:0.4639) [23.2 s]
+INFO:root:Epoch 62    loss=0.0817 [102.9 s]	dev=(NDCG@5:0.3324,RECALL@5:0.4641) [21.5 s]
+INFO:root:Epoch 63    loss=0.0802 [103.3 s]	dev=(NDCG@5:0.3326,RECALL@5:0.4643) [21.4 s]
+INFO:root:Epoch 64    loss=0.0798 [103.7 s]	dev=(NDCG@5:0.3331,RECALL@5:0.4641) [21.2 s] *
+INFO:root:Epoch 65    loss=0.0807 [103.9 s]	dev=(NDCG@5:0.3340,RECALL@5:0.4641) [21.3 s] *
+INFO:root:Epoch 66    loss=0.0801 [103.3 s]	dev=(NDCG@5:0.3337,RECALL@5:0.4639) [21.2 s]
+INFO:root:Epoch 67    loss=0.0797 [103.9 s]	dev=(NDCG@5:0.3334,RECALL@5:0.4620) [21.2 s]
+INFO:root:Epoch 68    loss=0.0780 [104.3 s]	dev=(NDCG@5:0.3343,RECALL@5:0.4637) [21.6 s] *
+INFO:root:Epoch 69    loss=0.0785 [103.9 s]	dev=(NDCG@5:0.3345,RECALL@5:0.4645) [21.3 s] *
+INFO:root:Epoch 70    loss=0.0785 [103.9 s]	dev=(NDCG@5:0.3336,RECALL@5:0.4633) [21.3 s]
+INFO:root:Epoch 71    loss=0.0787 [103.7 s]	dev=(NDCG@5:0.3340,RECALL@5:0.4641) [21.3 s]
+INFO:root:Epoch 72    loss=0.0782 [103.6 s]	dev=(NDCG@5:0.3334,RECALL@5:0.4632) [21.4 s]
+INFO:root:Epoch 73    loss=0.0785 [104.0 s]	dev=(NDCG@5:0.3330,RECALL@5:0.4628) [21.3 s]
+INFO:root:Epoch 74    loss=0.0769 [103.5 s]	dev=(NDCG@5:0.3336,RECALL@5:0.4635) [21.4 s]
+INFO:root:Epoch 75    loss=0.0762 [103.4 s]	dev=(NDCG@5:0.3339,RECALL@5:0.4641) [21.2 s]
+INFO:root:Epoch 76    loss=0.0776 [103.9 s]	dev=(NDCG@5:0.3340,RECALL@5:0.4652) [21.3 s]
+INFO:root:Epoch 77    loss=0.0764 [103.0 s]	dev=(NDCG@5:0.3349,RECALL@5:0.4668) [21.2 s] *
+INFO:root:Epoch 78    loss=0.0765 [104.8 s]	dev=(NDCG@5:0.3346,RECALL@5:0.4658) [21.2 s]
+INFO:root:Epoch 79    loss=0.0754 [103.4 s]	dev=(NDCG@5:0.3342,RECALL@5:0.4654) [21.2 s]
+INFO:root:Epoch 80    loss=0.0771 [103.6 s]	dev=(NDCG@5:0.3344,RECALL@5:0.4662) [21.6 s]
+INFO:root:Epoch 81    loss=0.0760 [103.2 s]	dev=(NDCG@5:0.3347,RECALL@5:0.4657) [21.2 s]
+INFO:root:Epoch 82    loss=0.0755 [102.6 s]	dev=(NDCG@5:0.3341,RECALL@5:0.4656) [21.2 s]
+INFO:root:Epoch 83    loss=0.0756 [104.1 s]	dev=(NDCG@5:0.3344,RECALL@5:0.4658) [21.4 s]
+INFO:root:Epoch 84    loss=0.0757 [103.0 s]	dev=(NDCG@5:0.3345,RECALL@5:0.4650) [21.3 s]
+INFO:root:Epoch 85    loss=0.0754 [103.4 s]	dev=(NDCG@5:0.3357,RECALL@5:0.4667) [21.3 s] *
+INFO:root:Epoch 86    loss=0.0748 [103.6 s]	dev=(NDCG@5:0.3351,RECALL@5:0.4655) [21.4 s]
+INFO:root:Epoch 87    loss=0.0746 [103.1 s]	dev=(NDCG@5:0.3348,RECALL@5:0.4644) [21.2 s]
+INFO:root:Epoch 88    loss=0.0741 [103.1 s]	dev=(NDCG@5:0.3352,RECALL@5:0.4644) [21.3 s]
+INFO:root:Epoch 89    loss=0.0747 [103.3 s]	dev=(NDCG@5:0.3352,RECALL@5:0.4650) [21.5 s]
+INFO:root:Epoch 90    loss=0.0748 [108.2 s]	dev=(NDCG@5:0.3354,RECALL@5:0.4653) [21.2 s]
+INFO:root:Epoch 91    loss=0.0733 [106.2 s]	dev=(NDCG@5:0.3356,RECALL@5:0.4660) [22.1 s]
+INFO:root:Epoch 92    loss=0.0749 [104.4 s]	dev=(NDCG@5:0.3362,RECALL@5:0.4674) [21.2 s] *
+INFO:root:Epoch 93    loss=0.0743 [102.9 s]	dev=(NDCG@5:0.3356,RECALL@5:0.4669) [21.3 s]
+INFO:root:Epoch 94    loss=0.0743 [133.2 s]	dev=(NDCG@5:0.3360,RECALL@5:0.4677) [25.8 s]
+INFO:root:Epoch 95    loss=0.0745 [135.7 s]	dev=(NDCG@5:0.3358,RECALL@5:0.4672) [24.1 s]
+INFO:root:Epoch 96    loss=0.0730 [135.9 s]	dev=(NDCG@5:0.3359,RECALL@5:0.4673) [25.3 s]
+INFO:root:Epoch 97    loss=0.0727 [108.2 s]	dev=(NDCG@5:0.3350,RECALL@5:0.4656) [21.5 s]
+INFO:root:Epoch 98    loss=0.0729 [106.3 s]	dev=(NDCG@5:0.3354,RECALL@5:0.4662) [22.2 s]
+INFO:root:Epoch 99    loss=0.0736 [110.7 s]	dev=(NDCG@5:0.3357,RECALL@5:0.4662) [24.6 s]
+INFO:root:Epoch 100   loss=0.0728 [123.0 s]	dev=(NDCG@5:0.3365,RECALL@5:0.4677) [22.1 s] *
+INFO:root:Epoch 101   loss=0.0730 [105.1 s]	dev=(NDCG@5:0.3368,RECALL@5:0.4671) [23.4 s] *
+INFO:root:Epoch 102   loss=0.0718 [112.4 s]	dev=(NDCG@5:0.3362,RECALL@5:0.4661) [24.6 s]
+INFO:root:Epoch 103   loss=0.0719 [136.3 s]	dev=(NDCG@5:0.3364,RECALL@5:0.4672) [23.8 s]
+INFO:root:Epoch 104   loss=0.0727 [136.5 s]	dev=(NDCG@5:0.3361,RECALL@5:0.4662) [24.9 s]
+INFO:root:Epoch 105   loss=0.0721 [108.8 s]	dev=(NDCG@5:0.3369,RECALL@5:0.4669) [21.7 s] *
+INFO:root:Epoch 106   loss=0.0720 [115.9 s]	dev=(NDCG@5:0.3368,RECALL@5:0.4683) [22.9 s]
+INFO:root:Epoch 107   loss=0.0729 [121.9 s]	dev=(NDCG@5:0.3366,RECALL@5:0.4665) [22.0 s]
+INFO:root:Epoch 108   loss=0.0732 [109.4 s]	dev=(NDCG@5:0.3366,RECALL@5:0.4674) [22.1 s]
+INFO:root:Epoch 109   loss=0.0730 [107.4 s]	dev=(NDCG@5:0.3359,RECALL@5:0.4668) [21.9 s]
+INFO:root:Epoch 110   loss=0.0723 [107.6 s]	dev=(NDCG@5:0.3360,RECALL@5:0.4665) [22.3 s]
+INFO:root:Epoch 111   loss=0.0721 [108.3 s]	dev=(NDCG@5:0.3368,RECALL@5:0.4675) [22.0 s]
+INFO:root:Epoch 112   loss=0.0728 [108.1 s]	dev=(NDCG@5:0.3364,RECALL@5:0.4669) [22.0 s]
+INFO:root:Epoch 113   loss=0.0724 [106.8 s]	dev=(NDCG@5:0.3365,RECALL@5:0.4671) [21.9 s]
+INFO:root:Epoch 114   loss=0.0718 [130.7 s]	dev=(NDCG@5:0.3365,RECALL@5:0.4669) [23.8 s]
+INFO:root:Early stop at 114 based on dev result.
+INFO:root:
+Best Iter(dev)=  105	 dev=(NDCG@5:0.3369,RECALL@5:0.4669) [30828.2 s] 
+INFO:root:Load model from ../model/LightGCN/LightGCN__Grocery_and_Gourmet_Food__0__lr=0.001__l2=1e-06__emb_size=64__n_layers=3__batch_size=256.pt
+INFO:root:
+Dev  After Training: (NDCG@5:0.3369,RECALL@5:0.4669,NDCG@10:0.3750,RECALL@10:0.5837,NDCG@20:0.4011,RECALL@20:0.6872,NDCG@50:0.4346,RECALL@50:0.8566)
+INFO:root:
+Test After Training: (NDCG@5:0.2718,RECALL@5:0.3918,NDCG@10:0.3124,RECALL@10:0.5160,NDCG@20:0.3403,RECALL@20:0.6265,NDCG@50:0.3802,RECALL@50:0.8288)
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCN\LightGCN__Grocery_and_Gourmet_Food__0__lr=0\rec-LightGCN-dev.csv
+INFO:root:dev Prediction results saved!
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCN\LightGCN__Grocery_and_Gourmet_Food__0__lr=0\rec-LightGCN-test.csv
+INFO:root:test Prediction results saved!
+INFO:root:
+--------------------------------------------- END: 2024-12-25 20:58:05 ---------------------------------------------

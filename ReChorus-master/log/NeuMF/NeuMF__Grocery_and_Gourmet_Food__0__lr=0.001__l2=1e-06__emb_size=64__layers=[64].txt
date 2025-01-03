@@ -1,0 +1,44 @@
+INFO:root:Namespace(model_name='NeuMF', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-24 22:05:18 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ layers             | [64]                
+ lr                 | 0.001               
+ main_metric        |                     
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 3003072
+INFO:root:NeuMF(
+  (mf_u_embeddings): Embedding(14682, 64)
+  (mf_i_embeddings): Embedding(8714, 64)
+  (mlp_u_embeddings): Embedding(14682, 64)
+  (mlp_i_embeddings): Embedding(8714, 64)
+  (mlp): ModuleList(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+  )
+  (dropout_layer): Dropout(p=0, inplace=False)
+  (prediction): Linear(in_features=128, out_features=1, bias=False)
+)
+INFO:root:Test Before Training: (HR@5:0.0524,NDCG@5:0.0301,HR@10:0.1010,NDCG@10:0.0456,HR@20:0.1978,NDCG@20:0.0698,HR@50:0.4901,NDCG@50:0.1269)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5066 [24.2 s]	dev=(HR@5:0.2417,NDCG@5:0.1585) [15.8 s] *
